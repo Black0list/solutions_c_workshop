@@ -11,7 +11,7 @@ scanf("%f", &kph);
 
 mps = kph * 0.27778;
 
-printf("Temperature en Kelvin : %.2f", mps);
+printf("Distance en m/s: %.2f", mps);
 
 
     return 0;
