@@ -11,7 +11,7 @@ scanf("%f", &K);
 
 Y = K * 1093.61;
 
-printf("Temperature en Kelvin : %.2f", Y);
+printf("Distance en Yards: %.2f", Y);
 
 
     return 0;
