@@ -13,8 +13,7 @@ int main() {
     scanf("%d",&b);
 
     if(a==b){
-        a = pow(a, 3);
-        printf("Triplet = %d", a);
+        printf("Triplet = %d", a*3);
     } else {
         printf("a + b = %d", a+b);
     }
