@@ -36,7 +36,7 @@ int main() {
 
 
     if (nbr_accidents > 1) {
-        prime *= 1.3; // Ajout de 30%
+        prime *= 1.3; 
     }
 
 
