@@ -9,12 +9,10 @@ int main(){
   scanf("%d",&n);
 
     for(i=0;i<n;i++){
-
         result = n_1 + n_2;
         n_2 = n_1;
         n_1 = result;
         printf("\n%d",result);
-        
     }
 
  

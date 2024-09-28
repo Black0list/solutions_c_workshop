@@ -18,12 +18,9 @@ int main(){
         scanf("%d", &T[i]);
     }
 
-
     for(int i=0;i<size;i++){
-
         for(int j=0;j<size - 1 - i;j++){
             if(T[j] > T[j+1]){
-
                 T[j] = T[j+1] + T[j];
                 T[j+1] = T[j] - T[j+1];
                 T[j] = T[j] - T[j+1];
@@ -31,7 +28,7 @@ int main(){
         }
     }
 
-        for(int i=0;i<size;i++){
+    for(int i=0;i<size;i++){
         printf("\n T[%d] = %d :",i+1,T[i]);
     }
 

@@ -18,7 +18,6 @@ int main(){
         }
         if(counter > countermax){
             countermax = counter;
-            counter  = 0;
             index = i;
         }
     }

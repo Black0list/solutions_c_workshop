@@ -6,7 +6,7 @@ int main(){
 
     printf("entrer le Nombre elements  :");
     scanf("%d", &size);
-
+    int count = 0;
     int T[size],max;
 
 
@@ -23,9 +23,12 @@ int main(){
     for(int i=0;i<size;i++){
         if( cherche == T[i]) {
             printf("Oui cet element , il est existe");
+            count++;
             break;
         }
     }
+
+    if(count == 0) printf("pas Existe");
 
 
 
