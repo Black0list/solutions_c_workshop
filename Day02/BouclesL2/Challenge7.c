@@ -6,17 +6,22 @@ int main(){
 
     printf("entrer Un nombre n :");
     scanf("%d", &n);
-    int fn;
 
     int T[n];
 
-    T[0] = 0;
-    T[1] = 1;
+    int n_2 = 0;
+    int n_1 = 1;
 
-    for(int i=0;i<n;i++){
-        fn = T[i-1] + T[i-2];
-        T[i-2] = T[i-1];
-        T[i-1] = fn;
-        printf("%d, ",fn);
+    printf("%d,",n_1);
+
+    if(n<2){
+        printf("%d, %d", n_2, n_1);
+    } else {
+        for(int i=2;i<=n;i++){
+        T[i] = n_1 + n_2;
+        n_2 = n_1;
+        n_1 = T[i];
+        printf(" %d,",T[i]);
+    }
     }
 }
