@@ -23,7 +23,7 @@ int main()
     printf("mail :");
     scanf("%s", &mail);
 
-    printf("\nNom: %s\n Prenom: %s\nAge: %d\nSexe: %s\nmail: %s", &nom,&prenom,&age,&sexe,&mail);
+    printf("Nom: %s\n Prenom: %s\nAge: %d\nSexe: %s\nmail: %s", nom,prenom,age,sexe,mail);
 
 
 
