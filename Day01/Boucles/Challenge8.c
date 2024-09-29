@@ -8,13 +8,17 @@ int main(){
   printf("entrer un Nombre ");
   scanf("%d",&n);
 
-    for(i=0;i<n;i++){
+  
+  printf("%d,",n_1);
+
+  if(n<2){
+        printf("%d, %d,", n_2, n_1);
+  } 
+  for(i=2;i<=n;i++){
         result = n_1 + n_2;
         n_2 = n_1;
         n_1 = result;
-        printf("\n%d",result);
+        printf(" %d,",result);
     }
-
- 
   return 0;
 }
